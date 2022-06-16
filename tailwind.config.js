@@ -12,6 +12,7 @@ module.exports = {
         'pale-blue': '#bdc1ff',
         'desaturated-blue': '#6f76c8',
       },
+      fontFamily: { rubik: ['Rubik', 'sans-serif'] },
     },
   },
   plugins: [],

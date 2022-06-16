@@ -49,7 +49,7 @@ const Home = () => {
     },
   ]
   return (
-    <div className="flex min-h-screen flex-col items-stretch justify-center gap-5 bg-[#0f1424] py-14 px-5 sm:grid sm:max-h-screen sm:min-h-screen sm:grid-cols-4 sm:grid-rows-2 sm:gap-8 sm:px-14">
+    <div className="flex min-h-screen flex-col items-stretch justify-center gap-5 bg-[#0f1424] py-14 px-5 font-rubik sm:grid sm:max-h-screen sm:min-h-screen sm:grid-cols-4 sm:grid-rows-2 sm:gap-8 sm:px-14">
       <IdCard />
       {cards.map((card) => (
         <DetailCard card={card} key={card.title} />
